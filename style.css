@@ -1,0 +1,185 @@
+.navbar {
+    border-bottom: 1px solid;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 0px 15px 0px 10px;
+    z-index: 2;
+}
+
+.navbar a {
+    color: #fcfcfc;
+    font-size: 14px;
+}
+
+.navbar a:last-child {
+    text-shadow: 1 1 2rem darkcyan;
+}
+
+.navbar button {
+    font-size: 12px;
+    border-radius: 10px;
+    color: #fcfcfc;
+}
+
+.categorie span {
+    background: rgb(17, 25, 43);
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 6px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.categorie span a {
+    color: #f5f9fc;
+    font-size: 14px;
+}
+
+.navbar ul li {
+    margin: 10px;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(43, 107, 190);
+}
+
+.contenair ul li a:hover {
+    color: rgb(43, 107, 190);
+}
+
+/* .navbar #bouton:hover{ */
+/* border: 1px solid white; */
+/* border-radius: 5px; */
+/* color: white; */
+/* } */
+
+.contenus {
+    background-color: rgb(17, 25, 43);
+}
+
+.navbar {
+    background-color: rgb(17, 25, 43);
+}
+
+.create {
+    text-align: center;
+    padding: 88px 44px;
+}
+
+.create .button {
+    padding: 32px;
+}
+
+.create h1 {
+    color: #fcfcfc;
+    font-size: 80px;
+    text-shadow: 0 0 2rem darkcyan;
+}
+
+.create button {
+    background: #0079f2;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.create button a {
+    color: #fcfcfc;
+    font-size: 16px;
+    margin: 0px 0px 0px 4px;
+}
+
+.create p {
+    font-size: 20px;
+    color: #c2c8cc;
+    padding: 32px 0px 0px;
+}
+
+.Feature h1 {
+    color: aliceblue;
+    font-size: 56px;
+    text-align: center;
+}
+
+.Feature {
+    background: linear-gradient(180deg, #192334 0%, #0d101e 100%);
+    justify-content: center;
+    
+}
+.footer {
+    background-color: #1c2333;
+    padding-top: 50px;
+}
+
+.footer span {
+    color: #9DA2A6;
+    font-weight: 600;
+}
+h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #9DA2A6;
+}
+
+.legal {
+    display: flex;
+    justify-content: center;
+}
+.legal li a {
+    text-decoration: none;
+    color: #9DA2A6;
+}
+.legal li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+
+.languages li a {
+    text-decoration: none;
+    color: #9DA2A6;
+}
+
+.languages li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #004182;
+}
+
+@media only screen and (max-width:600px) and (min-width:400px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+.card-title{
+    color: #fcfcfc;
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    background-color: #1c2333;
+    color: #9DA2A6;
+    border: 2px solid #004182;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+.card:hover{
+    box-shadow: 2px 4px 4px 2px #004182;
+}
+
